@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabeli Yaroslau Makarevich</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="form-wrap">
+        <div class="profile"><img src="https://i.ibb.co/zR0TnX5/imgonline-com-ua-Resize-g-M2cm-AGy-HHc-A4.png">
+          <h1>Yaroslau Makarevich 2k</h1>
+        </div>
+        <form method="post" action="form.php">
+          <div>
+            <label for="name">Imię Nazwisko</label>
+            <input type="text" name="name" required>
+          </div>
+          <div class="radio">
+            <span>Jesteś</span>
+            <label>
+              <input type="radio" name="sex" value="mężczyzna">mężczyzna
+              <div class="radio-control male"></div>
+            </label>
+            <label>
+              <input type="radio" name="sex" value="Kobieta">Kobieta
+              <div class="radio-control female"></div>
+            </label>
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required>
+          </div>
+          <div>
+            <label for="klassa">Twoja klasa</label>
+            <select name="klassa">
+              <option>W której jesteś klasie</option>
+              <option value="1">1</option> 
+              <option value="2">2</option> 
+              <option value="3">3</option> 
+              <option value="4">4</option> 
+              <option value="5">5</option> 
+            </select> 
+            <label for="lekcja" class="lekcja1">twoja ulubiona lekcja szkolna</label>
+            <select name="lekcja" class="lekcja">
+              <option>twoja ulubiona lekcja szkolna</option>
+              <option value="1">informatyka</option> 
+              <option value="2">chemia </option> 
+              <option value="3">matematyka </option> 
+              <option value="4">Siec.kompute</option> 
+              <option value="5">historia </option> 
+              <option value="5">j.niemieck </option> 
+              <option value="5">Witr i apl </option> 
+              <option value="5">j.polski </option> 
+              <option value="5">wf </option> 
+              <option value="5">sieć_sys_ope</option> 
+              <option value="5">geografia </option> 
+              <option value="5">j.angielski </option> 
+              <option value="5">UTK</option> 
+            
+            </select>
+            <div class="select-arrow"></div> 
+          </div> 
+          <button type="submit">wysłać</button> 
+        </form> 
+      </div>
+</body>
+</html>
